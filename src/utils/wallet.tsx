@@ -16,7 +16,7 @@ export function WalletProvider({ children = null as any }) {
   const { endpoint } = useConnectionConfig();
   const [providerUrl, setProviderUrl] = useLocalStorageState(
     "walletProvider",
-    "https://www.sollet.io"
+    "https://solflare.com/access-wallet"
   );
   const wallet = useMemo(() => new Wallet(providerUrl, endpoint), [
     providerUrl,

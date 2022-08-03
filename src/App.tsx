@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.less";
-import GitHubButton from "react-github-btn";
 import { Routes } from "./routes";
 
 function App() {
@@ -8,11 +7,10 @@ function App() {
     <div className="App">
       <div className="Banner">
         <div className="Banner-description">
-          Swap is unaudited software. Use at your own risk.
+          Swap is a Demo Version and unaudited for Geni Teams. Use at your own risk.
         </div>
       </div>
       <Routes />
-
     </div>
   );
 }
